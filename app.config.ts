@@ -5,7 +5,7 @@ import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs';
 import { LogGroup, RetentionDays } from 'aws-cdk-lib/aws-logs';
 import { config } from 'dotenv';
 
-config();
+config({ quiet: true });
 const botName = 'DiscordBot';
 
 const app = new App();

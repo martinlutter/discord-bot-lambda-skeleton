@@ -22,7 +22,7 @@
     "@eslint/js": "^10.0.1",
     "@types/aws-lambda": "^8.10.136",
     "@types/jest": "^30.0.0",
-    "@types/node": "^22",
+    "@types/node": "^24",
     "aws-cdk": "^2.1013.0",
     "esbuild": "^0.28.2",
     "eslint": "^10.11.0",
@@ -45,5 +45,8 @@
     "discord-api-types": "^0.38.2",
     "discord-interactions": "^4.1.1",
     "dotenv": "^18.0.4"
+  },
+  "volta": {
+    "node": "24.21.0"
   }
 }

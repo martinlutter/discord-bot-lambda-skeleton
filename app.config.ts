@@ -16,7 +16,7 @@ const commonEnvVars = {
 };
 
 const executeLambda = new NodejsFunction(stack, 'Execute', {
-  runtime: Runtime.NODEJS_22_X,
+  runtime: Runtime.NODEJS_24_X,
   entry: 'src/execute.ts',
   bundling: {
     minify: true,
@@ -30,7 +30,7 @@ const executeLambda = new NodejsFunction(stack, 'Execute', {
 });
 
 const interactionLambda = new NodejsFunction(stack, 'Interaction', {
-  runtime: Runtime.NODEJS_22_X,
+  runtime: Runtime.NODEJS_24_X,
   entry: 'src/index.ts',
   bundling: {
     minify: true,

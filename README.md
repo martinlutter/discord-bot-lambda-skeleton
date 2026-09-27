@@ -43,7 +43,7 @@ tests/                     jest tests, mirrors src/
 
 ### 1. Prerequisites
 
-- Node.js 22
+- Node.js 24
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and an AWS account
 - A Discord account and a server where you have the **Manage Server** permission
 

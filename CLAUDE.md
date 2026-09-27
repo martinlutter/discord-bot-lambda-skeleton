@@ -85,6 +85,7 @@ Serverless Discord bot skeleton: no gateway/websocket. Discord POSTs interaction
 
 ### Conventions
 
+- Commit messages: no Claude attribution (no `Co-Authored-By: Claude` trailer or "Generated with Claude Code" line).
 - Prettier: single quotes, semicolons, trailing commas. ESLint uses type-checked rules and must pass, tests included.
 - Payload types come from `discord-api-types/v10`; use `type` imports.
 - Env vars: add to `.env.dist`, pass via `environment` in `app.config.ts`, read as `process.env.X!` at module top.
